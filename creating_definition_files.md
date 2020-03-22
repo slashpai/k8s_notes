@@ -25,6 +25,10 @@ kubectl run --generator=run-pod/v1 nginx --image=nginx
 kubectl run --generator=run-pod/v1 nginx --image=nginx --dry-run -o yaml
 ```
 
+```bash
+ kubectl run nginx --image=busybox --generator=run-pod/v1 --dry-run
+```
+
 ## Create a deployment
 
 ```bash
